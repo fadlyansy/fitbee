@@ -1,5 +1,6 @@
 import { Component } from '@angular/core';
 import { NavController, NavParams } from 'ionic-angular';
+import { HomePage } from './../home/home';
 
 /*
   Generated class for the Slider page.
@@ -18,5 +19,12 @@ export class SliderPage {
   ionViewDidLoad() {
     console.log('ionViewDidLoad SliderPage');
   }
+
+
+  funcHome (){
+        this.navCtrl.push (HomePage);
+
+    }
+
 
 }
